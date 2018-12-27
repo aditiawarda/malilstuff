@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+#loading {
+    position: fixed;
+    z-index: 50;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: #000 url(../images/loading.gif) no-repeat center;
+    line-height: 350px;
+    text-align: center;
+    font-size: 36px;
+    color: #353231;
+    text-indent: -9999px;
+}
+.v2 #loading { display: none; }
+ 
+#progress-bar {
+    position: absolute;
+    top: 0; left: 0;
+    background: #f3f3f3;
+    opacity: 0.8;
+    width: 0;
+    height: 18px;
+}
+#loader {
+ background: url(<span style="background-color: #ea9999;">../images/loading.gif</span>) no-repeat center 25%;
+ height: 100%;
+ display: block;
+}
