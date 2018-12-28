@@ -43,16 +43,17 @@
 
             <div class="col-6 col-md-4 order-3 order-md-3 text-right">
               <div class="site-top-icons">
-                <ul>
-                  <li><a href="#"><span class="icon icon-person"></span></a></li>
-                  <li><a href="#"><span class="icon icon-heart-o"></span></a></li>
+              <ul>
                   <li>
-                    <a href="cart.html" class="site-cart">
-                      <span class="icon icon-shopping_cart"></span>
-                      <span class="count">2</span>
+                    <a href="user-profile.php" class="site-cart">
+                     <img src="images/user.png" width=18>
                     </a>
                   </li> 
-                  <li class="d-inline-block d-md-none ml-md-0"><a href="#" class="site-menu-toggle js-menu-toggle"><span class="icon-menu"></span></a></li>
+                  <li>
+                    <a href="user-setting.php" class="site-cart">
+                     <img src="images/setting.png" width=18>
+                    </a>
+                  </li> 
                 </ul>
               </div> 
             </div>
@@ -91,9 +92,7 @@
           <div class="col-md-6">
             <div class="block-16">
               <figure>
-                <img src="images/blog_1.jpg" alt="Image placeholder" class="img-fluid rounded">
-                <a href="https://vimeo.com/channels/staffpicks/93951774" class="play-button popup-vimeo"><span class="ion-md-play"></span></a>
-
+                <img src="images/about.jpg" alt="Image placeholder" class="img-fluid rounded">
               </figure>
             </div>
           </div>

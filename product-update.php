@@ -14,6 +14,7 @@
 			$promovalue = $_POST['promovalue'];
 			$description = $_POST['description'];
 			$efficacy = $_POST['efficacy'];
+			$phone = $_POST['phone'];
 
 			list($txt, $ext) = explode(".", $name);
 			$image_name = time().".".$ext;
@@ -21,7 +22,7 @@
 
 			if(move_uploaded_file($tmp, 'product/'.$image_name)){
 
-				$sql = "UPDATE product SET image='$image_name', productname='$productname', vendor_id='$vendor_id', vendorname='$vendorname', stock='$stock', price='$price', promovalue='$promovalue', description='$description', efficacy='$efficacy' WHERE id='$id' ";
+				$sql = "UPDATE product SET image='$image_name', productname='$productname', vendor_id='$vendor_id', vendorname='$vendorname', stock='$stock', price='$price', promovalue='$promovalue', description='$description', efficacy='$efficacy', phone='$phone' WHERE id='$id' ";
 
 				//echo "<img width='200px' src='upload/".$image_name."' class='preview'>";
 
@@ -37,7 +38,8 @@
 			        ":price"=> $price,
 			        ":promovalue"=> $promovalue,
 					":description"=> $description,
-					":efficacy"=> $efficacy
+					":efficacy"=> $efficacy,
+					":phone"=> $phone
 			    );
 
 			    // eksekusi query untuk menyimpan ke database

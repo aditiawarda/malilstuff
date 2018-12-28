@@ -157,6 +157,7 @@
               </div>
               <input type="hidden" name="id" value="<?php echo $row["id"]; ?>">
               <input type="hidden" name="vendor_id" value="<?php echo $row["vendor_id"]; ?>">
+              <input type="hidden" name="phone" value="<?php echo  $_SESSION["vendor"]["phone"]; ?>">
 
                 <div class="form-group row">
                   <div class="col-md-12">
