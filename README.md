@@ -1,3 +1,2 @@
 # malilstuff
-The aplication of my exame
-git
+The aplication of my exam
